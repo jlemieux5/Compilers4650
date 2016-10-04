@@ -1,0 +1,23 @@
+/* #2 Contains SimpleVar errors, labeled as void */
+
+int flying[10];
+int y;
+int z;
+int w;
+void hello;
+
+
+void gcd(int jbeibs[], void test, int anotherVar){
+  int sorry;
+  return;
+}
+
+int testFunc(int bran, int stark, int Robb){
+  int forTheWall;
+  int notToday;
+  return w;
+}
+
+
+int testAfter;
+void x[7];

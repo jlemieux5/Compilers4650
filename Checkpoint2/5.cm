@@ -1,0 +1,28 @@
+/* #5 Contains many different errors */
+
+int flying[10];
+void y;
+int z;
+int w;
+int hello;
+
+
+void gcd(int jbeibs[], int test, int anotherVar){
+  int sorry;
+  int z;
+  int z;
+  flying[gcd()] = 2;
+  sorry = 7 * 7 + gcd();
+  if(gcd() + 2)
+    test = 7;
+  return;
+}
+
+int testFunc(int bran, void stark, int Robb){
+  int forTheWall;
+  int notToday;
+
+  while(notToday)
+    notToday = 2;
+  notDeclaredYet = 7;
+}

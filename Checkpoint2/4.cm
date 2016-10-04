@@ -1,0 +1,30 @@
+/* #4 Contains Array errors, incorrect array ranges */
+
+int flying[7];
+int y;
+int z;
+int w;
+int hello;
+
+
+void gcd(void){
+  int sorry[7];
+  sorry[gcd()] = 7;
+
+  return;
+}
+
+int testFunc(int x){
+
+  int forTheWall;
+  int notToday;
+  flying[7] = testFunc();
+
+  
+  flying[6] = gcd();
+  return notToday;
+}
+
+
+int testAfter;
+int x;

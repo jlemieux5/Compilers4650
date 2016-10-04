@@ -1,0 +1,33 @@
+Compiler 4650 Checkpoint #2
+By: Josh Lemieux
+Date: March 23rd 2015
+
+Building and Running:
+  To build this program type make when in the proper directory
+  NOTE: You must have your classpath set properly in the makefile to the location of your cup.jar file!
+  You can also use make clean to delete any files built during the compilation step
+  To run this program type: java -classpath /NAMEOFPATH/ Scanner exfile
+  To run this program in Symbol mode add -s to command
+  To run this program in AST mode add -a to command
+  replace NAMEOFPATH witch the location of your jar file and exfile with a example c- program
+
+Known Limitations:
+
+This program does not deal with compound statements inside if or while expressions
+For example if you have if(x) x = 7;  This will work fine but if you have -
+if(x){
+x = 7;
+x = x*2;
+gcd();
+}
+This will NOT work, it will ignore all statements inside the if and contniue on
+
+Also when printing the symbol tables out, if there are any syntax errors they will still be printed and may
+even interupt the flow of how the hashtables are printed out (e.g printing errors between hashtables)
+
+Errors:
+AST errors: When an error is encountered the output will look like this - Error in line 5, column 1 : Syntax error(3)(Int)
+This shows the type of error (Syntax), what caused it (a int declaration) and where its at (line 5, column 1)
+
+Type Checking Errors: When an error is encountered the output will look like this - Line: 10, Type Error: x must be declared INT
+This shows the error type, the line number, the variable that contains the error, and a little more information

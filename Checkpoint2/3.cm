@@ -1,0 +1,22 @@
+/* #3 Contains Return type errors: mismatched returnVal and type, as well as no return exp  */
+
+int flying[10];
+int y;
+int z;
+int w;
+int hello;
+
+
+void gcd(int jbeibs[], int test, int anotherVar){
+  int sorry;
+  return 7;
+}
+
+int testFunc(int bran, int stark, int Robb){
+  int forTheWall;
+  int notToday;
+}
+
+
+int testAfter;
+int x;
